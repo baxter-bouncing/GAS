@@ -11,6 +11,8 @@ from the ide, a trigger can be added later since this is serving as a template*/
 /*the running function below ties together the defining, reading and showing functions from
 workers.gs and shows the "data range". That is, it shows all of the data in the sheet. Those functions do the work, this function just pulls it all together */
 
+//log the contents of all the data in the active sheet
+
 function running() {
   //the range below comes from the defining function. That variable, range, is then plugged into the 
   //reading function as instructed in this script.
